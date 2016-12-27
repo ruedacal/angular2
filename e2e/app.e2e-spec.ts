@@ -1,10 +1,10 @@
-import { MiNuevoProyectoAngularPage } from './app.po';
+import { Angular2SeedPage } from './app.po';
 
-describe('mi-nuevo-proyecto-angular App', function() {
-  let page: MiNuevoProyectoAngularPage;
+describe('angular2-seed App', function() {
+  let page: Angular2SeedPage;
 
   beforeEach(() => {
-    page = new MiNuevoProyectoAngularPage();
+    page = new Angular2SeedPage();
   });
 
   it('should display message saying app works', () => {
